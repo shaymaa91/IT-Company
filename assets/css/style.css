@@ -1,0 +1,48 @@
+
+body{}
+
+.text-white{
+    color: #fff;
+    
+}
+.text-white-75 {
+    
+    font-size: 1.15rem;
+    font-family: 'Merriweather', serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+.font-weight-light {
+    font-weight: 300 !important;
+}
+.navbar .nav-link, .navbar .navbar-brand,h1{
+    color: #fff !important;
+}
+.header{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.divider
+{
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+}
+
+.btn-header{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;    
+    border-color: #f4623a;
+}
